@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\OzzTerraria Survival Server\Plugin References\Unused Plugins\UndoBoss\UndoBoss\bin\Debug\UndoBoss.dll
+C:\Users\User\Desktop\OzzTerraria Survival Server\Plugin References\Unused Plugins\UndoBoss\UndoBoss\bin\Debug\UndoBoss.pdb
+C:\Users\User\Desktop\OzzTerraria Survival Server\Plugin References\Unused Plugins\UndoBoss\UndoBoss\bin\Debug\OTAPI.dll
+C:\Users\User\Desktop\OzzTerraria Survival Server\Plugin References\Unused Plugins\UndoBoss\UndoBoss\bin\Debug\TerrariaServer.exe
+C:\Users\User\Desktop\OzzTerraria Survival Server\Plugin References\Unused Plugins\UndoBoss\UndoBoss\bin\Debug\TShockAPI.dll
+C:\Users\User\Desktop\OzzTerraria Survival Server\Plugin References\Unused Plugins\UndoBoss\UndoBoss\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Desktop\OzzTerraria Survival Server\Plugin References\Unused Plugins\UndoBoss\UndoBoss\obj\Debug\UndoBoss.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\OzzTerraria Survival Server\Plugin References\Unused Plugins\UndoBoss\UndoBoss\obj\Debug\UndoBoss.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\OzzTerraria Survival Server\Plugin References\Unused Plugins\UndoBoss\UndoBoss\obj\Debug\UndoBoss.csproj.CopyComplete
+C:\Users\User\Desktop\OzzTerraria Survival Server\Plugin References\Unused Plugins\UndoBoss\UndoBoss\obj\Debug\UndoBoss.dll
+C:\Users\User\Desktop\OzzTerraria Survival Server\Plugin References\Unused Plugins\UndoBoss\UndoBoss\obj\Debug\UndoBoss.pdb
