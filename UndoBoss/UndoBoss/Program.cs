@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -97,8 +97,16 @@ namespace UndoBoss
                         args.Player.SendInfoMessage("Note: This is the same as the '/hardmode' command.");
                         return;
                     }
+                case "queenslime":
+                case "qs":
+                    {
+                        NPC.downedQueenSlime = !NPC.downedQueenSlime;
+                        args.Player.SendInfoMessage($"Set Queen Slime as {(NPC.downedQueenSlime ? "[c/FF0000:Killed]" : "[c/00FF00:Not Killed]")}!");
+                        return;
+                    }
                 case "mech1":
                 case "thedestroyer":
+                case "destroyer":
                     {
                         NPC.downedMechBoss1 = !NPC.downedMechBoss1;
                         args.Player.SendInfoMessage($"Set The Destroyer as {(NPC.downedMechBoss1 ? "[c/FF0000:Killed]" : "[c/00FF00:Not Killed]")}!");
@@ -106,6 +114,7 @@ namespace UndoBoss
                     }
                 case "mech2":
                 case "thetwins":
+                case "twins":
                     {
                         NPC.downedMechBoss2 = !NPC.downedMechBoss2;
                         args.Player.SendInfoMessage($"Set The Twins as {(NPC.downedMechBoss2 ? "[c/FF0000:Killed]" : "[c/00FF00:Not Killed]")}!");
@@ -113,6 +122,7 @@ namespace UndoBoss
                     }
                 case "mech3":
                 case "skeletronprime":
+                case "prime":
                     {
                         NPC.downedMechBoss3 = !NPC.downedMechBoss3;
                         args.Player.SendInfoMessage($"Set Skeletron Prime as {(NPC.downedMechBoss3 ? "[c/FF0000:Killed]" : "[c/00FF00:Not Killed]")}!");
@@ -130,20 +140,23 @@ namespace UndoBoss
                         args.Player.SendInfoMessage($"Set Golem as {(NPC.downedGolemBoss ? "[c/FF0000:Killed]" : "[c/00FF00:Not Killed]")}!");
                         return;
                     }
-                case "cultist":
-                case "lunatic":
-                    {
-                        NPC.downedAncientCultist = !NPC.downedAncientCultist;
-                        args.Player.SendInfoMessage($"Set Lunatic Cultist as {(NPC.downedAncientCultist ? "[c/FF0000:Killed]" : "[c/00FF00:Not Killed]")}!");
-                        return;
-                    }
                 case "duke":
                 case "fishron":
+                case "dukefishron":
                     {
                         NPC.downedFishron = !NPC.downedFishron;
                         args.Player.SendInfoMessage($"Set Duke Fishron as {(NPC.downedFishron ? "[c/FF0000:Killed]" : "[c/00FF00:Not Killed]")}!");
                         return;
                     }
+                case "cultist":
+                case "lunatic":
+                case "lunaticcultist":
+                    {
+                        NPC.downedAncientCultist = !NPC.downedAncientCultist;
+                        args.Player.SendInfoMessage($"Set Lunatic Cultist as {(NPC.downedAncientCultist ? "[c/FF0000:Killed]" : "[c/00FF00:Not Killed]")}!");
+                        return;
+                    }
+
                 case "empress":
                 case "eol":
                 case "empressoflight":
