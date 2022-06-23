@@ -1,3 +1,5 @@
+⚠️ **This plugin has been merged into the [BossManager](https://github.com/Ozz5581/BossManager) Plugin.**
+
 # UndoBoss - tShock Plugin
 
 ## What is UndoBoss
